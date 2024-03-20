@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         double w = Double.parseDouble(weight.getText().toString());
         double bmi = w / (h/100.0 * h/100.0);
         String result = "你的BMI是：" + bmi;
-
+//        5555555
         TextView show = findViewById(R.id.tvShow);
         show.setText(result);
     }
