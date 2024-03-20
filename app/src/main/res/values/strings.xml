@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">BMI</string>
-    <string name="strInputHeight" >Input Height</string>
-    <string name="strInputWeight" >Input Weught</string>
+    <string name="strInputHeight">Input Height</string>
+    <string name="strInputWeight">Input Weught</string>
     <string name="strCalc">Calcutor</string>
-    <string name="StrShowbmi" >"Your Bmi : "</string>
+    <string name="StrShowbmi">"Your Bmi : "</string>
+    <string name="strGoNext" >GoNext</string>
 </resources>
