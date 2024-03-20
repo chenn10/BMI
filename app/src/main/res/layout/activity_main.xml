@@ -10,10 +10,12 @@
         android:id="@+id/etHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints="@string/strInputHeight"
         android:ems="10"
         android:hint="@string/strInputHeight"
         android:inputType="numberDecimal"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#78909C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -25,10 +27,12 @@
         android:id="@+id/etWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autofillHints="@string/strInputWeight"
         android:ems="10"
         android:hint="@string/strInputWeight"
         android:inputType="numberDecimal"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#78909C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -59,4 +63,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.678" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
