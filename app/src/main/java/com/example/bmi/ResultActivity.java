@@ -3,6 +3,7 @@ package com.example.bmi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class ResultActivity extends AppCompatActivity {
 
@@ -10,7 +11,12 @@ public class ResultActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
+        TextView show = findViewById(R.id.tvShowbmi);
+        double bmi = getIntent().getDoubleExtra("bmi", 0);
+        show.setText(String.valueOf(bmi));
+
     }
+
 
 
 }
