@@ -24,6 +24,7 @@ public class ResultActivity extends AppCompatActivity {
         } else{
             show.setText("體重過重");
             img.setImageResource(R.drawable.fat);
+            //5555
         }
     }
 }
